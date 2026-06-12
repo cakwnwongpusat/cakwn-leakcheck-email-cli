@@ -1,0 +1,28 @@
+# Environments
+venv/
+env/
+.env
+
+# Cache & Compiled
+__pycache__/
+*.py[cod]
+cache/*
+!cache/__init__.py
+
+# Databases
+database/*.db
+database/*.sqlite3
+!database/__init__.py
+
+# Reports & Exports
+reports/*.pdf
+reports/*.html
+reports/*.json
+reports/*.csv
+exports/*
+!reports/__init__.py
+!exports/__init__.py
+
+# Logs
+logs/*
+!logs/__init__.py
